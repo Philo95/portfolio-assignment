@@ -60,10 +60,10 @@ em {
     margin: 10px;
     backdrop-filter: blur(10px);
     border-radius: 20px;
-    width: 12%;
+    width: 20%;
     font-size: 15pt;
     color: black;
-    text-align: justify;
+    text-align: center;
   
 }
 
@@ -126,7 +126,7 @@ em {
 }
 
 #me {
-    align-items: center;
+    text-align: center;
 }
 #aboutme {
     margin: 20px;
@@ -211,6 +211,7 @@ em {
     background-color: darkslateblue;
     border-radius: 50px;
     width: 100%;
+    
 }
 
 #field1 {
