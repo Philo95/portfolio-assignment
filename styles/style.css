@@ -251,9 +251,36 @@ background-position: center;
     color: white;
     font-size: 15pt;
 }
-
-#thankssection {
-    background-image: url(/images/DALL·E\ 2022-10-13\ 08.56.02\ -\ field\ of\ fleurs\ de\ lys\ with\ mountains\ in\ the\ background\ and\ wind\ blowing\,\ HD.png);
+#thanksbody {
+    background-image: url(../images/DALL·E\ 2022-10-13\ 09.20.52\ -\ birds-eye\ view\ of\ mountain\ landcape\ with\ a\ crystal\ blue\ lake\,\ HD.png);
 background-size: cover;
 background-position: center;
+}
+
+#thanksh1 {
+    text-align: center;
+color: black;
+font-size: 40pt;
+backdrop-filter: blur(20px);
+border-radius: 50px;
+
+}
+#thanksp {
+    text-align: center;
+    font-size: 35pt;
+    background-color: white;
+    opacity: 50%;
+    border-radius: 50px;
+    
+}
+
+#thanksdiv > :nth-child(1){
+    text-align: center;
+   border-radius: 10px 100px / 120px;
+    padding: 15px;
+    background-color: rgb(14, 148, 210);
+    box-shadow: 10px 10px 5px grey;
+    width: 99%;
+
+    
 }
