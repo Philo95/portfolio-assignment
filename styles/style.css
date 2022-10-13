@@ -177,3 +177,77 @@ em {
     float: right;
 
 }
+
+#main-nav3 ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+#main-nav3 li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#main-nav3 ul li a:hover {
+    background-color: rgba(255, 255, 255, .25);
+    transition: 0, 5s;
+}
+
+
+#main-nav3 ul li a {
+    padding: 1.5em;
+    text-decoration: none;
+    color: black;
+}
+#main-nav3 {
+    background-image: url(/images/DALL·E\ 2022-10-13\ 01.35.38\ -\ futuristic\ city\ at\ night\ with\ a\ giant\ robot\ attacking\ it\ HD\,\ unreal\ engine.png);
+}
+#contacth1{
+    text-align: center;
+    font-size: 30pt;
+    background-color: darkslateblue;
+    border-radius: 50px;
+    width: 100%;
+}
+
+#field1 {
+    text-align: center;
+    padding: 2em;
+    color: white;
+}
+
+#h2contact {
+    font-size: 20pt;
+}
+#legend1{
+    font-size: 20pt;
+    color: black;
+    background-color: white;
+}
+#reason {
+    text-align: center;
+}
+#message1{
+    text-align: center;
+}
+#submit {
+    text-align: center;
+    padding: 0.5em;
+}
+
+#formsection {
+    background-image: url(../images/DALL·E\ 2022-10-13\ 01.35.38\ -\ futuristic\ city\ at\ night\ with\ a\ giant\ robot\ attacking\ it\ HD\,\ unreal\ engine.png);
+background-size: cover;
+background-position: center;
+}
+#legend2 {
+    color: white;
+    font-size: 15pt;
+}
+#label {
+    color: white;
+    font-size: 15pt;
+}

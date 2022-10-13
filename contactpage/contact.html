@@ -6,24 +6,50 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Contact Form</title>
+    <title>Contact me</title>
+    <link rel="stylesheet" href="/aboutpage/about.html">
+    <link rel="stylesheet" href="/index.html">
+    <link rel="stylesheet" href="/styles/reset.css">
+    <link rel="stylesheet" href="/styles/style.css">
+    <link rel="stylesheet" href="/images/DALL·E 2022-10-13 01.35.38 - futuristic city at night with a giant robot attacking it HD, unreal engine.png">
 </head>
 
 <body>
+    
+    <div>
+        <nav id="main-nav3">
+            <ul id="list">
+                <li>
+                    <a href="/aboutpage/about.html">about me</a>
+
+                </li>
+
+                <li>
+                    <a href="/index.html">Home</a>
+                </li>
+            </ul>
+
+        </nav>
+    </div>
+   
+   
     <main>
-        <header>
-            <h1>Some information about you</h1>
+        <header id="contacth1">
+            <h1>Thank you for your time, and please dont hesitate to contact me</h1>
         </header>
-
-        <h2>Contact information</h2>
-
-        <form action='./Thanks' method='post'><input type='hidden' name='form-name' value='form 1' />
-            <fieldset>
-                <legend>User Information</legend>
+<div>
+        <h2 id="h2contact"><strong>Contact information</strong></h2>
+        <p><strong>Email:</strong>Phil.Cloutier@outlook.com</p>
+        <p><strong>Phone:</strong>705-279-0265</p>
+    </div>
+    <section id="formsection">
+    <form action='./Thanks' method='post'><input type='hidden' name='form-name' value='form 1'/>
+        <fieldset id="field1">
+            <legend id="legend1"><strong>Send me a message</strong></legend>
 
                 <div>
                     <label for="name">Name:</label><br />
-                    <input type="text" name="name" id="name" required />
+                    <input type="text" name="name" id="name1" required />
                 </div>
                 <div>
                     <label for="lastName">Last Name:</label><br />
@@ -37,34 +63,34 @@
                     <label for="PhoneNumber">Phone Number:</label><br />
                     <input type="tel" name="PhoneNumber" id="PhoneNumber" optional/>
                 </div>
+          
             </fieldset>
-
-            <fieldset>
-                <legend>Reason for form submission</legend>
-                <label for="message">Reason:</label>
+            <fieldset id="reason">
+                <legend id="legend2"><strong>Reason for form submission</strong></legend>
+                <label for="message" id="label">Reason:</label>
                 <select name="message" id="message" required>
-                    <option value="Careers">Career Opportunities</option>
-                    <option value="Marketing">Marketing proposal</option>
+                    <option value="Careers">Offer of employment/Interview</option>
+                    <option value="Marketing">I want to collaborate</option>
                     <option value="General">General Inquiry</option>
-                    <option value="Complaint">Complaint</option>
-                    <option value="Business">Business proposal</option>
-                    <option value="Sponsor">Sponsorship inquiry</option>
+                    <option value="Business">Business proposal/Commission</option>
                 </select>
             </fieldset>
-            <h3>Please write us a message regarding your submission so our team can better assist you.</h3>
-            <fieldset>
+            
+            <fieldset id="message1">
                 <div>
-
+                    
                     <textarea id="textarea" name="textarea" id="textarea" rows="20"
-                        cols="30" required>enter your message here</textarea>
-
+                    cols="30" required>enter your message here</textarea>
+                    
                 </div>
-
+                
             </fieldset>
-
-            <p> <input type="submit" value="Submit" /> </p>
+            
+            <p id="submit"> <input type="submit" value="Submit"  /> </p>
+        </section>
         </form>
     </main>
+
 </body>
 
 </html>
