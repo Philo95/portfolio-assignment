@@ -42,6 +42,9 @@ em {
     background-size: cover;
     background-position: center;
 }
+#main-nav-about {
+    background-image: url(/images/DALL·E\ 2022-10-13\ 01.35.38\ -\ futuristic\ city\ at\ night\ with\ a\ giant\ robot\ attacking\ it\ HD\,\ unreal\ engine.png);
+}
 
 #h1 {
     color: darkblue;
@@ -62,6 +65,31 @@ em {
     color: black;
     text-align: justify;
   
+}
+
+#main-nav-about ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+#main-nav-about li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#main-nav-about ul li a:hover {
+    background-color: rgba(255, 255, 255, .25);
+    transition: 0, 5s;
+}
+
+
+#main-nav-about ul li a {
+    padding: 1.5em;
+    text-decoration: none;
+    color: black;
 }
 
 #main-nav ul {
@@ -99,4 +127,53 @@ em {
 
 #me {
     align-items: center;
+}
+#aboutme {
+    margin: 20px;
+  }
+   
+#aboutmelist {
+    list-style-type: none;
+    width: 1000px;
+  }
+   
+  #aboutmeh3 {
+    font: bold 20px/1.5 , 'roboto', sans-serif;
+  }
+   
+  #aboutmepic1 {
+    float: left;
+    margin: 0 15px 0 0;
+  }
+  #aboutmepic2 {
+    float: left;
+    margin: 0 15px 0 0;
+  }
+  #aboutmepic3 {
+    float: left;
+    margin: 0 15px 0 0;
+  }
+  #aboutmepic4 {
+    float: left;
+    margin: 0 15px 0 0;
+  }
+   
+  #about {
+    font: 200 13px/1.5 'Abyssinica', sans-serif;
+  }
+   
+  #aboutmelist {
+    padding: 10px;
+    overflow: auto;
+  }
+   
+  #aboutmelist:hover {
+    background: #eee;
+    cursor: pointer;
+  }
+
+ cite {
+    color: black;
+    float: right;
+
 }
