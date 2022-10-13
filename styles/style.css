@@ -251,3 +251,9 @@ background-position: center;
     color: white;
     font-size: 15pt;
 }
+
+#thankssection {
+    background-image: url(/images/DALL·E\ 2022-10-13\ 08.56.02\ -\ field\ of\ fleurs\ de\ lys\ with\ mountains\ in\ the\ background\ and\ wind\ blowing\,\ HD.png);
+background-size: cover;
+background-position: center;
+}
