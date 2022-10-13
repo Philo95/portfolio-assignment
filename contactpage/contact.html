@@ -1,0 +1,70 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Form</title>
+</head>
+
+<body>
+    <main>
+        <header>
+            <h1>Some information about you</h1>
+        </header>
+
+        <h2>Contact information</h2>
+
+        <form action='./Thanks' method='post'><input type='hidden' name='form-name' value='form 1' />
+            <fieldset>
+                <legend>User Information</legend>
+
+                <div>
+                    <label for="name">Name:</label><br />
+                    <input type="text" name="name" id="name" required />
+                </div>
+                <div>
+                    <label for="lastName">Last Name:</label><br />
+                    <input type="text" name="lastName" id="lastName" required />
+                </div>
+                <div>
+                    <label for="email">Email:</label><br />
+                    <input type="email" name="email" id="email" required />
+                </div>
+                <div>
+                    <label for="PhoneNumber">Phone Number:</label><br />
+                    <input type="tel" name="PhoneNumber" id="PhoneNumber" optional/>
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <legend>Reason for form submission</legend>
+                <label for="message">Reason:</label>
+                <select name="message" id="message" required>
+                    <option value="Careers">Career Opportunities</option>
+                    <option value="Marketing">Marketing proposal</option>
+                    <option value="General">General Inquiry</option>
+                    <option value="Complaint">Complaint</option>
+                    <option value="Business">Business proposal</option>
+                    <option value="Sponsor">Sponsorship inquiry</option>
+                </select>
+            </fieldset>
+            <h3>Please write us a message regarding your submission so our team can better assist you.</h3>
+            <fieldset>
+                <div>
+
+                    <textarea id="textarea" name="textarea" id="textarea" rows="20"
+                        cols="30" required>enter your message here</textarea>
+
+                </div>
+
+            </fieldset>
+
+            <p> <input type="submit" value="Submit" /> </p>
+        </form>
+    </main>
+</body>
+
+</html>
