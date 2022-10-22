@@ -37,7 +37,7 @@ em {
 }
 
 
-#indexbody {
+#section1 {
     background-image: url(../images/DALL·E\ 2022-10-13\ 01.29.07\ -\ british\ columbia\ crystal\ water\ landscape\ with\ mountains\ in\ background\ HD.png);
     background-size: cover;
     background-position: center;
@@ -61,7 +61,7 @@ em {
     backdrop-filter: blur(10px);
     border-radius: 20px;
     width: 20%;
-    font-size: 15pt;
+    font-size: 18pt;
     color: black;
     text-align: center;
   
@@ -227,7 +227,27 @@ em {
     font-size: 20pt;
     color: black;
     background-color: white;
+    
 }
+label {
+    font-weight: bold;
+   float: left;
+text-align: center;
+font-size: 15pt;
+background-color: black;
+padding: 0.3em;
+border-radius: 20px;
+    
+    
+}
+input {
+    float: left;
+    margin-top: 1.5em;
+text-align: center;
+    
+    
+}
+
 #reason {
     text-align: center;
 }
@@ -235,8 +255,13 @@ em {
     text-align: center;
 }
 #submit {
-    text-align: center;
-    padding: 0.5em;
+    
+text-align: center;
+padding: 2em;
+font-weight: bold;
+font-size: large;
+margin-bottom: 4em;
+    
 }
 
 #formsection {
