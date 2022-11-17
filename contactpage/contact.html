@@ -15,7 +15,7 @@
     <link rel="thanks" href="/thanks.html">
 </head>
 
-<body>
+<body id="contactbody">
     
     <div>
         <nav id="main-nav3">
@@ -34,35 +34,38 @@
     </div>
    
    
-    <main>
+    <main id="cmain">
         <header id="contacth1">
             <h1>Thank you for your time, and please dont hesitate to contact me</h1>
         </header>
-
+<div id="Cdiv">
         <h2 id="h2contact"><strong>Contact information</strong></h2>
         <p><strong>Email:</strong>Phil.Cloutier@outlook.com</p>
         <p><strong>Phone:</strong>705-279-0265</p>
+        </div>
     <section id="formsection">
     <form action='/thanks.html' netlify method='post'><input type='hidden' name='form-name' value='form 1'/>
         <fieldset id="field1">
             <legend id="legend1"><strong>Send me a message</strong></legend>
 
-                
-                    <label for="name1">Name:</label><br> <br>
+                <div id="contactslots">
+                    <label for="name1">Name:</label><br>
+                    
                     <input type="text" name="name" id="name1" required />
-                
+                <br>
                 
                     <label for="lastName">Last Name:</label><br>
                     <input type="text" name="lastName" id="lastName" required />
+                <br>
                 
                 
                     <label for="email">Email:</label><br>
                     <input type="email" name="email" id="email" required />
                 
-                
+                <br>
                     <label for="PhoneNumber">Phone Number:</label><br>
                     <input type="tel" name="PhoneNumber" id="PhoneNumber" optional/>
-                
+                </div>
           
             </fieldset>
             <fieldset id="reason">

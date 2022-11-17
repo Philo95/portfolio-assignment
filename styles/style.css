@@ -37,11 +37,12 @@ em {
 }
 
 
-#section1 {
+#indexbody {
     background-image: url(../images/DALL·E\ 2022-10-13\ 01.29.07\ -\ british\ columbia\ crystal\ water\ landscape\ with\ mountains\ in\ background\ HD.png);
     background-size: cover;
     background-position: center;
 }
+
 #main-nav-about {
     background-image: url(/images/DALL·E\ 2022-10-13\ 01.35.38\ -\ futuristic\ city\ at\ night\ with\ a\ giant\ robot\ attacking\ it\ HD\,\ unreal\ engine.png);
 }
@@ -64,7 +65,7 @@ em {
     font-size: 18pt;
     color: black;
     text-align: center;
-  
+
 }
 
 #main-nav-about ul {
@@ -128,51 +129,55 @@ em {
 #me {
     text-align: center;
 }
+
 #aboutme {
     margin: 20px;
-  }
-   
+}
+
 #aboutmelist {
     list-style-type: none;
     width: 1000px;
-  }
-   
-  #aboutmeh3 {
-    font: bold 20px/1.5 , 'roboto', sans-serif;
-  }
-   
-  #aboutmepic1 {
+}
+
+#aboutmeh3 {
+    font: bold 20px/1.5, 'roboto', sans-serif;
+}
+
+#aboutmepic1 {
     float: left;
     margin: 0 15px 0 0;
-  }
-  #aboutmepic2 {
+}
+
+#aboutmepic2 {
     float: left;
     margin: 0 15px 0 0;
-  }
-  #aboutmepic3 {
+}
+
+#aboutmepic3 {
     float: left;
     margin: 0 15px 0 0;
-  }
-  #aboutmepic4 {
+}
+
+#aboutmepic4 {
     float: left;
     margin: 0 15px 0 0;
-  }
-   
-  #about {
+}
+
+#about {
     font: 200 13px/1.5 'Abyssinica', sans-serif;
-  }
-   
-  #aboutmelist {
+}
+
+#aboutmelist {
     padding: 10px;
     overflow: auto;
-  }
-   
-  #aboutmelist:hover {
+}
+
+#aboutmelist:hover {
     background: #eee;
     cursor: pointer;
-  }
+}
 
- cite {
+cite {
     color: black;
     float: right;
 
@@ -196,23 +201,29 @@ em {
     transition: 0, 5s;
 }
 
+#cdiv {
+    background-color: white;
+}
 
 #main-nav3 ul li a {
     padding: 1.5em;
     text-decoration: none;
     color: black;
 }
+
 #main-nav3 {
     background-image: url(/images/DALL·E\ 2022-10-13\ 01.35.38\ -\ futuristic\ city\ at\ night\ with\ a\ giant\ robot\ attacking\ it\ HD\,\ unreal\ engine.png);
 }
-#contacth1{
+
+#contacth1 {
     text-align: center;
     font-size: 30pt;
     background-color: darkslateblue;
     border-radius: 50px;
     width: 100%;
-    
+
 }
+
 
 #field1 {
     text-align: center;
@@ -220,93 +231,130 @@ em {
     color: white;
 }
 
+#submit {
+    flex-direction: column
+}
+
 #h2contact {
     font-size: 20pt;
 }
-#legend1{
+
+#legend1 {
     font-size: 20pt;
     color: black;
     background-color: white;
-    
+
 }
+
 label {
-    font-weight: bold;
-   float: left;
-text-align: center;
-font-size: 15pt;
-background-color: black;
-padding: 0.3em;
-border-radius: 20px;
-    
-    
-}
-input {
+
     float: left;
-    margin-top: 1.5em;
-text-align: center;
-    
-    
+
+    text-align: center;
+    font-size: 15pt;
+    background-color: black;
+    padding: 0.3em;
+    border-radius: 20px;
+    color: white;
+
+}
+
+#cmain {
+    align-content: center;
+
+
+
+}
+
+input {
+
+    margin-top: 1em;
+margin-bottom: 0.5em;
+    float: right;
+
+
 }
 
 #reason {
     text-align: center;
 }
-#message1{
+
+#message1 {
     text-align: center;
 }
+
 #submit {
     
-text-align: center;
-padding: 2em;
-font-weight: bold;
-font-size: large;
-margin-bottom: 4em;
-    
+    padding: 2em;
+    font-weight: bold;
+    font-size: large;
+    margin-bottom: 4em;
+margin-right: 20%;
+
+
+
 }
 
 #formsection {
     background-image: url(../images/DALL·E\ 2022-10-13\ 01.35.38\ -\ futuristic\ city\ at\ night\ with\ a\ giant\ robot\ attacking\ it\ HD\,\ unreal\ engine.png);
-background-size: cover;
-background-position: center;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+
+    justify-content: center;
+
+    color: white;
+    align-items: center;
+
+
 }
+
 #legend2 {
     color: white;
     font-size: 15pt;
+    
 }
+
 #label {
     color: white;
     font-size: 15pt;
 }
+
+#h2contact {
+    background-color: white;
+}
+
 #thanksbody {
     background-image: url(../images/DALL·E\ 2022-10-13\ 09.20.52\ -\ birds-eye\ view\ of\ mountain\ landcape\ with\ a\ crystal\ blue\ lake\,\ HD.png);
-background-size: cover;
-background-position: center;
+    background-size: cover;
+    background-position: center;
 }
 
 #thanksh1 {
     text-align: center;
-color: black;
-font-size: 40pt;
-backdrop-filter: blur(20px);
-border-radius: 50px;
+    color: black;
+    font-size: 40pt;
+    backdrop-filter: blur(20px);
+    border-radius: 50px;
 
 }
+
 #thanksp {
     text-align: center;
     font-size: 35pt;
     background-color: white;
     opacity: 50%;
     border-radius: 50px;
-    
+
 }
 
-#thanksdiv > :nth-child(1){
+#thanksdiv> :nth-child(1) {
     text-align: center;
-   border-radius: 10px 100px / 120px;
+    border-radius: 10px 100px / 120px;
     padding: 15px;
     background-color: rgb(14, 148, 210);
     box-shadow: 10px 10px 5px grey;
     width: 99%;
 
-    
+
 }
